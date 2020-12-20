@@ -9,12 +9,24 @@
 /* Begin PBXBuildFile section */
 		850818C6246AE6E1005DADA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850818C5246AE6E1005DADA7 /* AppDelegate.swift */; };
 		850818C8246AE6E1005DADA7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850818C7246AE6E1005DADA7 /* SceneDelegate.swift */; };
-		850818CA246AE6E1005DADA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850818C9246AE6E1005DADA7 /* ContentView.swift */; };
+		850818CA246AE6E1005DADA7 /* CharacterSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850818C9246AE6E1005DADA7 /* CharacterSheet.swift */; };
 		850818CC246AE6E6005DADA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 850818CB246AE6E6005DADA7 /* Assets.xcassets */; };
 		850818CF246AE6E6005DADA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 850818CE246AE6E6005DADA7 /* Preview Assets.xcassets */; };
 		850818D2246AE6E6005DADA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 850818D0246AE6E6005DADA7 /* LaunchScreen.storyboard */; };
 		850818DD246AE6E6005DADA7 /* TFT_Character_SheetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850818DC246AE6E6005DADA7 /* TFT_Character_SheetTests.swift */; };
 		850818E8246AE6E6005DADA7 /* TFT_Character_SheetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850818E7246AE6E6005DADA7 /* TFT_Character_SheetUITests.swift */; };
+		850818F6246AF389005DADA7 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850818F5246AF389005DADA7 /* CircleView.swift */; };
+		8548496124A3E5E40079D1CF /* CharacterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8548496024A3E5E40079D1CF /* CharacterList.swift */; };
+		8548496324AA89500079D1CF /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8548496224AA89500079D1CF /* UserData.swift */; };
+		854BBD27246DA0C500C47EF6 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854BBD26246DA0C500C47EF6 /* Character.swift */; };
+		854BBD2A246DA2EA00C47EF6 /* characterData.json in Resources */ = {isa = PBXBuildFile; fileRef = 854BBD29246DA2EA00C47EF6 /* characterData.json */; };
+		854BBD2D246DA9EC00C47EF6 /* CharacterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854BBD2C246DA9EC00C47EF6 /* CharacterRow.swift */; };
+		854BBD2F246F48F400C47EF6 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854BBD2E246F48F400C47EF6 /* Data.swift */; };
+		8577F0472480206800E50BBC /* durin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8577F0432480206800E50BBC /* durin.jpg */; };
+		8577F0482480206800E50BBC /* bilbo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8577F0442480206800E50BBC /* bilbo.jpg */; };
+		8577F0492480206800E50BBC /* gandalf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8577F0452480206800E50BBC /* gandalf.jpg */; };
+		8577F04A2480206800E50BBC /* thorin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8577F0462480206800E50BBC /* thorin.jpg */; };
+		85CB360425056D0C005D6059 /* CreateCharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CB360325056D0C005D6059 /* CreateCharacterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +50,7 @@
 		850818C2246AE6E1005DADA7 /* TFT Character Sheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TFT Character Sheet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		850818C5246AE6E1005DADA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		850818C7246AE6E1005DADA7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		850818C9246AE6E1005DADA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		850818C9246AE6E1005DADA7 /* CharacterSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSheet.swift; sourceTree = "<group>"; };
 		850818CB246AE6E6005DADA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		850818CE246AE6E6005DADA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		850818D1246AE6E6005DADA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +61,18 @@
 		850818E3246AE6E6005DADA7 /* TFT Character SheetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TFT Character SheetUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		850818E7246AE6E6005DADA7 /* TFT_Character_SheetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFT_Character_SheetUITests.swift; sourceTree = "<group>"; };
 		850818E9246AE6E6005DADA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		850818F5246AF389005DADA7 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		8548496024A3E5E40079D1CF /* CharacterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterList.swift; sourceTree = "<group>"; };
+		8548496224AA89500079D1CF /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		854BBD26246DA0C500C47EF6 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		854BBD29246DA2EA00C47EF6 /* characterData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = characterData.json; path = "TFT Character Sheet/Resources/characterData.json"; sourceTree = SOURCE_ROOT; };
+		854BBD2C246DA9EC00C47EF6 /* CharacterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterRow.swift; sourceTree = "<group>"; };
+		854BBD2E246F48F400C47EF6 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		8577F0432480206800E50BBC /* durin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = durin.jpg; sourceTree = "<group>"; };
+		8577F0442480206800E50BBC /* bilbo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bilbo.jpg; sourceTree = "<group>"; };
+		8577F0452480206800E50BBC /* gandalf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gandalf.jpg; sourceTree = "<group>"; };
+		8577F0462480206800E50BBC /* thorin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thorin.jpg; sourceTree = "<group>"; };
+		85CB360325056D0C005D6059 /* CreateCharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCharacterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +124,16 @@
 			isa = PBXGroup;
 			children = (
 				850818C5246AE6E1005DADA7 /* AppDelegate.swift */,
+				854BBD28246DA0D100C47EF6 /* Models */,
+				854BBD2B246DA2F900C47EF6 /* Resources */,
 				850818C7246AE6E1005DADA7 /* SceneDelegate.swift */,
-				850818C9246AE6E1005DADA7 /* ContentView.swift */,
+				850818C9246AE6E1005DADA7 /* CharacterSheet.swift */,
+				854BBD2C246DA9EC00C47EF6 /* CharacterRow.swift */,
+				8548496024A3E5E40079D1CF /* CharacterList.swift */,
+				85CB360325056D0C005D6059 /* CreateCharacterView.swift */,
+				8548496224AA89500079D1CF /* UserData.swift */,
 				850818CB246AE6E6005DADA7 /* Assets.xcassets */,
+				850818F5246AF389005DADA7 /* CircleView.swift */,
 				850818D0246AE6E6005DADA7 /* LaunchScreen.storyboard */,
 				850818D3246AE6E6005DADA7 /* Info.plist */,
 				850818CD246AE6E6005DADA7 /* Preview Content */,
@@ -134,6 +165,27 @@
 				850818E9246AE6E6005DADA7 /* Info.plist */,
 			);
 			path = "TFT Character SheetUITests";
+			sourceTree = "<group>";
+		};
+		854BBD28246DA0D100C47EF6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				854BBD2E246F48F400C47EF6 /* Data.swift */,
+				854BBD26246DA0C500C47EF6 /* Character.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		854BBD2B246DA2F900C47EF6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8577F0442480206800E50BBC /* bilbo.jpg */,
+				8577F0432480206800E50BBC /* durin.jpg */,
+				8577F0452480206800E50BBC /* gandalf.jpg */,
+				8577F0462480206800E50BBC /* thorin.jpg */,
+				854BBD29246DA2EA00C47EF6 /* characterData.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +293,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				850818D2246AE6E6005DADA7 /* LaunchScreen.storyboard in Resources */,
+				854BBD2A246DA2EA00C47EF6 /* characterData.json in Resources */,
+				8577F0492480206800E50BBC /* gandalf.jpg in Resources */,
+				8577F0482480206800E50BBC /* bilbo.jpg in Resources */,
+				8577F0472480206800E50BBC /* durin.jpg in Resources */,
+				8577F04A2480206800E50BBC /* thorin.jpg in Resources */,
 				850818CF246AE6E6005DADA7 /* Preview Assets.xcassets in Resources */,
 				850818CC246AE6E6005DADA7 /* Assets.xcassets in Resources */,
 			);
@@ -267,9 +324,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				854BBD2F246F48F400C47EF6 /* Data.swift in Sources */,
+				850818F6246AF389005DADA7 /* CircleView.swift in Sources */,
+				85CB360425056D0C005D6059 /* CreateCharacterView.swift in Sources */,
 				850818C6246AE6E1005DADA7 /* AppDelegate.swift in Sources */,
+				8548496324AA89500079D1CF /* UserData.swift in Sources */,
+				854BBD27246DA0C500C47EF6 /* Character.swift in Sources */,
 				850818C8246AE6E1005DADA7 /* SceneDelegate.swift in Sources */,
-				850818CA246AE6E1005DADA7 /* ContentView.swift in Sources */,
+				854BBD2D246DA9EC00C47EF6 /* CharacterRow.swift in Sources */,
+				850818CA246AE6E1005DADA7 /* CharacterSheet.swift in Sources */,
+				8548496124A3E5E40079D1CF /* CharacterList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

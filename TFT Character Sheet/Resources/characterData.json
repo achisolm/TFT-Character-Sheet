@@ -1,0 +1,46 @@
+[
+    {
+        "name": "Durin",
+        "id": 1001,
+        "isFavorite": true,
+        "st": 15,
+        "dx": 14,
+        "iq": 10,
+        "imageName": "durin",
+        "skills": ["Skill one", "Skill two", "Skill three"],
+        "spells": ["Spell one"]
+    },
+    {
+        "name": "Thorin",
+        "id": 1002,
+        "isFavorite": false,
+        "st": 13,
+        "dx": 12,
+        "iq": 9,
+        "imageName": "thorin",
+        "skills": ["Skill one", "Skill two", "Skill three"],
+        "spells": []
+    },
+    {
+        "name": "Bilbo",
+        "id": 1003,
+        "isFavorite": true,
+        "st": 6,
+        "dx": 14,
+        "iq": 10,
+        "imageName": "bilbo",
+        "skills": ["Skill one", "Skill two", "Skill three", "Skill four", "Skill five"],
+        "spells": ["Spell one"]
+    },
+    {
+        "name": "Gandalf",
+        "id": 1004,
+        "isFavorite": false,
+        "st": 10,
+        "dx": 12,
+        "iq": 17,
+        "imageName": "gandalf",
+        "skills": [],
+        "spells": ["Spell one", "Spell two", "Spell three", "Spell four"]
+    }
+]
